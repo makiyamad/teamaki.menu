@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using TeaMaki.Persistence;
+using AutoMapper;
+using TeaMaki.Menu.ProductAggregate;
 
 namespace TeaMaki.Menu
 {
@@ -19,6 +21,7 @@ namespace TeaMaki.Menu
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(MenuProfile));
             services.AddControllers();
             services.AddSwaggerGen();
             services.AddPersistenceLibrary(Configuration.GetSection("Database"));
@@ -50,6 +53,14 @@ namespace TeaMaki.Menu
             {
                 endpoints.MapControllers();
             });
+        }
+    }
+
+    public class MenuProfile : Profile
+    {
+        public MenuProfile()
+        {
+            CreateMap<ProductToPut, Product>();
         }
     }
 }

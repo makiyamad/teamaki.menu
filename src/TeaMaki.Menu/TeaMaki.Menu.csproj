@@ -5,8 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
     <PackageReference Include="RavenDB.Client" Version="5.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
     <PackageReference Include="TeaMaki.Persistence" Version="0.0.2" />
   </ItemGroup>
 

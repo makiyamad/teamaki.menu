@@ -1,4 +1,4 @@
-﻿namespace TeaMaki.Menu.Controllers
+﻿namespace TeaMaki.Menu.ProductAggregate
 {
     public class ProductToGet{
 

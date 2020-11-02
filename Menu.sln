@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C09A8AED-9DF0-464A-99B8-F7A632F40DC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeaMaki.Menu", "src\TeaMaki.Menu\TeaMaki.Menu.csproj", "{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeaMaki.Persistence", "src\TeaMaki.Persistence\TeaMaki.Persistence.csproj", "{8817892D-E6BE-4121-88C0-53FFAF69A784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Debug|x64.Build.0 = Debug|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Debug|x86.Build.0 = Debug|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Release|x64.ActiveCfg = Release|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Release|x64.Build.0 = Release|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Release|x86.ActiveCfg = Release|Any CPU
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651}.Release|x86.Build.0 = Release|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Debug|x64.Build.0 = Debug|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Debug|x86.Build.0 = Debug|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Release|x64.ActiveCfg = Release|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Release|x64.Build.0 = Release|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Release|x86.ActiveCfg = Release|Any CPU
+		{8817892D-E6BE-4121-88C0-53FFAF69A784}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F1ECDBF-83DE-4C0D-A0B0-066022BC0651} = {C09A8AED-9DF0-464A-99B8-F7A632F40DC4}
+		{8817892D-E6BE-4121-88C0-53FFAF69A784} = {C09A8AED-9DF0-464A-99B8-F7A632F40DC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A543E281-6CC4-49E9-A3A6-A60E91EBE0A4}
+	EndGlobalSection
+EndGlobal
